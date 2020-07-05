@@ -20,9 +20,9 @@ String random = pm.get();
 # Output / Behaviour Demonstration
 Running Test.java with 1000 total selects demonstrates correct probability in the selection. As selection is down to chance, values will obviously vary slightly. Bellow is a typical run:
 ```
-A had a probability of 0.38% and was selected 0.39% 
-B had a probability of 0.38% and was selected 0.38% 
-C had a probability of 0.19% and was selected 0.18% 
-D had a probability of 0.04% and was selected 0.04% 
-RareAF had a probability of 0.01% and was selected 0.01% 
+A's Probability is 0.38% | Was selected 0.39% of the time
+B's Probability is 0.38% | Was selected 0.38% of the time
+C's Probability is 0.19% | Was selected 0.18% of the time
+D's Probability is 0.04% | Was selected 0.04% of the time
+RareAF's Probability is 0.01% | Was selected 0.01% of the time
 ```
