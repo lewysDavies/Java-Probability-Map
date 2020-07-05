@@ -18,7 +18,7 @@ pm.add("RareAF", 1);
 String random = pm.get();
 ```
 # Output / Behaviour Demonstration
-Running Test.java demonstrates correct probability in the selection. As selection is down to chance, values will obviously vary slightly. Bellow is a typical run:
+Running Test.java with 1000 total selects demonstrates correct probability in the selection. As selection is down to chance, values will obviously vary slightly. Bellow is a typical run:
 ```
 A had a probability of 0.38% and was selected 0.39% 
 B had a probability of 0.38% and was selected 0.38% 
