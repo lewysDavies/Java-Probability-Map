@@ -83,7 +83,7 @@ public class ProbabilityMap<E> {
 		// Map is sorted when changed
 		// Therefore probability of elements is already in descending order: i.e. 5, 5, 4, 1, 1
 		
-		// Random int between 1 and total probability (+1 as nextInt bound is exclusive_
+		// Random int between 1 and total probability (+1 as nextInt bound is exclusive)
 		int randomProb = ThreadLocalRandom.current().nextInt(1, this.totalProbability + 1);
 		
 		int cumulativeProb = 0;
