@@ -20,23 +20,23 @@ class Test {
 			else if(random.equals("RareAF")) e++;
 		}
 		
-		System.out.printf("A had a probability of %.2f%% and was selected %.2f%% \n", 
+		System.out.printf("A's Probability is %.2f%% | Was selected %.2f%% of the time \n", 
 				(50.0 / (double) pm.getTotalProbability()),
 				(double) a / (double) totalSelects);
 		
-		System.out.printf("B had a probability of %.2f%% and was selected %.2f%% \n", 
+		System.out.printf("B's Probability is %.2f%% | Was selected %.2f%% of the time \n", 
 				(50.0 / (double) pm.getTotalProbability()),
 				(double) b / (double) totalSelects);
 		
-		System.out.printf("C had a probability of %.2f%% and was selected %.2f%% \n", 
+		System.out.printf("C's Probability is %.2f%% | Was selected %.2f%% of the time \n", 
 				(25.0 / (double) pm.getTotalProbability()),
 				(double) c / (double) totalSelects);
 		
-		System.out.printf("D had a probability of %.2f%% and was selected %.2f%% \n", 
+		System.out.printf("D's Probability is %.2f%% | Was selected %.2f%% of the time \n", 
 				(5 / (double) pm.getTotalProbability()),
 				(double) d / (double) totalSelects);
 		
-		System.out.printf("RareAF had a probability of %.2f%% and was selected %.2f%% \n", 
+		System.out.printf("RareAF's Probability is %.2f%% | Was selected %.2f%% of the time \n", 
 				(1.0 / (double) pm.getTotalProbability()),
 				(double) e / (double) totalSelects);
 	}	
